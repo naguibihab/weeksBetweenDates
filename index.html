@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1 id="weeks" style="text-align: center"></h1>
+
+<script src="https://momentjs.com/downloads/moment.min.js"></script>
+<script>
+  var a = moment("2019/04/29")
+  var b = moment()
+  document.getElementById("weeks").innerHTML = b.diff(a, 'week') + " Weeks";
+</script>
+
+</body>
+</html>
